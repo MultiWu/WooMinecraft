@@ -53,7 +53,6 @@ public final class WooMinecraft extends JavaPlugin {
 		) {
 			getLogger().severe(String.valueOf(Bukkit.spigot().getConfig().getBoolean("settings.bungeecord")));
 			getLogger().severe("WooMinecraft doesn't support offLine mode");
-			Bukkit.getPluginManager().disablePlugin(this);
 			return;
 		}
 
